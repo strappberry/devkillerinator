@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Strappberry\Devkillerinator\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DevkillerinatorCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'devkillerinator';
 
     public $description = 'My command';
 
