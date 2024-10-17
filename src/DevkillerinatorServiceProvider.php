@@ -5,6 +5,7 @@ namespace Strappberry\Devkillerinator;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Strappberry\Devkillerinator\Commands\DevkillerinatorLandingCommand;
+use Strappberry\Devkillerinator\Commands\DevkillerinatorModelCommand;
 
 class DevkillerinatorServiceProvider extends PackageServiceProvider
 {
@@ -22,6 +23,7 @@ class DevkillerinatorServiceProvider extends PackageServiceProvider
             // ->hasMigration('create_devkillerinator_table')
             ->hasCommands([
                 DevkillerinatorLandingCommand::class,
+                DevkillerinatorModelCommand::class,
             ]);
     }
 }

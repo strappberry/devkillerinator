@@ -9,7 +9,7 @@ use function Laravel\Prompts\textarea;
 
 class DevkillerinatorLandingCommand extends Command
 {
-    public $signature = 'devkillerinator:landing';
+    public $signature = 'dev:landing';
 
     public $description = 'Genera una landing page para tu proyecto';
 
